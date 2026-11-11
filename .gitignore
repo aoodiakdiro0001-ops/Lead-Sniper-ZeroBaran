@@ -1,6 +1,7 @@
 # Dependencies
 node_modules/
-package-lock.json
+# package-lock.json MUST be committed: `npm ci` in CI fails without it.
+# (yarn/pnpm locks stay ignored — this project uses npm only)
 yarn.lock
 pnpm-lock.yaml
 
